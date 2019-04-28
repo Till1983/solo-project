@@ -1,0 +1,64 @@
+body {
+    background-color: #59CD90;
+    color: white;
+    font-family: "Fjalla One", Arial;
+    font-size: 28px;
+  }
+  
+  form {
+    line-height: 25px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    overflow: break;
+  }
+  
+  .overlay {
+    width: 80%;
+    min-width: 30%;
+    margin: 3% auto;
+    display: block;
+    padding: 2%;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }  
+  
+  .header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+  }
